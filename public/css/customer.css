@@ -1,0 +1,21 @@
+/*!
+ * customer css
+ */
+
+body {
+    padding-top: 10px;
+    background-color: #f8f8f8;
+}
+
+
+.book-form {
+    max-width: 300px;
+    margin: 0 auto 20px;
+    padding: 5px 20px 20px;
+    background: #fff;
+    border: 1px solid #e5e5e5
+}
+.book-form .control-group{
+    margin-bottom: 5px;
+}
+
