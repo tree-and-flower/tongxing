@@ -26,7 +26,8 @@
         "App\\Providers\\BusServiceProvider",
         "App\\Providers\\ConfigServiceProvider",
         "App\\Providers\\EventServiceProvider",
-        "App\\Providers\\RouteServiceProvider"
+        "App\\Providers\\RouteServiceProvider",
+        "Overtrue\\LaravelWechat\\ServiceProvider"
     ],
     "eager": [
         "Illuminate\\Auth\\AuthServiceProvider",
@@ -122,7 +123,43 @@
         "auth.password": "Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider",
         "auth.password.tokens": "Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider",
         "translator": "Illuminate\\Translation\\TranslationServiceProvider",
-        "translation.loader": "Illuminate\\Translation\\TranslationServiceProvider"
+        "translation.loader": "Illuminate\\Translation\\TranslationServiceProvider",
+        "wechat.user": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.group": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.auth": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.menu": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.menu.item": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.js": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.staff": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.store": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.card": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.qrcode": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.url": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.media": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.image": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.notice": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.color": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.semantic": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.stats": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\User": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Group": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Auth": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Menu": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\MenuItem": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Js": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Staff": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Store": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Card": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\QRCode": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Url": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Media": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Image": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Notice": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Color": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Semantic": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Stats": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "wechat.server": "Overtrue\\LaravelWechat\\ServiceProvider",
+        "Overtrue\\Wechat\\Server": "Overtrue\\LaravelWechat\\ServiceProvider"
     },
     "when": {
         "Illuminate\\Foundation\\Providers\\ArtisanServiceProvider": [],
@@ -135,6 +172,7 @@
         "Illuminate\\Queue\\QueueServiceProvider": [],
         "Illuminate\\Redis\\RedisServiceProvider": [],
         "Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider": [],
-        "Illuminate\\Translation\\TranslationServiceProvider": []
+        "Illuminate\\Translation\\TranslationServiceProvider": [],
+        "Overtrue\\LaravelWechat\\ServiceProvider": []
     }
 }

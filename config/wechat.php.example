@@ -1,0 +1,8 @@
+<?php
+return [
+    'use_alias'    => false,
+    'app_id'          => '', // 必填
+    'secret'         => '', // 必填
+    'token'          => '',  // 必填
+    'encoding_Key' => '' // 加密模式需要，其它模式不需要
+];
