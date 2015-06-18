@@ -44,9 +44,9 @@
                             </div>
                         </div>
                         <div class="control-group">
-                            <label class="control-label">团购券号(多个券号以逗号，分隔)</label>
+                            <label class="control-label">团购券密码(多个券密码以逗号，分隔)</label>
                             <div class="controls">
-                                <textarea class="input-block-level" rows="3" name="ticket" id="ticket"  placeholder="多个券号以逗号分隔"></textarea>
+                                <textarea class="input-block-level" rows="3" name="ticket" id="ticket"  placeholder="多个券密码以逗号分隔，非订单编号"></textarea>
                             </div>
                         </div>
                         <div class="control-group">
