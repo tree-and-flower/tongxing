@@ -50,6 +50,12 @@
                             </div>
                         </div>
                         <div class="control-group">
+                            <label class="control-label">身份证号码(预约世界之窗门票必须填写取票人身份证号码)</label>
+                            <div class="controls">
+                            <input class="input-block-level" placeholder="请输入正确的身份证号码" name="id_card" id="id_card" type="text">
+                            </div>
+                        </div>
+                        <div class="control-group">
                             <label class="control-label">备注(可填写人数信息)</label>
                             <div class="controls">
                                 <textarea class="input-block-level" rows="2" name="info" id="info" placeholder="备注信息"></textarea>
@@ -97,6 +103,11 @@ $(document).ready(function(){
         var reg = new RegExp("^[0-9]{11}$");
         if( ! reg.test(data['telephone'])){
             alert("请输入正确的电话号码");
+            return false;
+        }
+        data['id_card'] = $("#id_card").val();
+        if(data['jingdian'] == 3 && data['id_card'] == ''){
+            alert("预约世界之窗取票人身份证必填");
             return false;
         }
         data['ticket'] = $("#ticket").val();

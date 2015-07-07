@@ -21,6 +21,7 @@ class BookController extends Controller {
             $res['info'] = '主要联系人姓名不能为空';
         }
         $telephone = trim($data['telephone']); 
+        $id_card = trim($data['id_card']); 
         $ticket = trim($data['ticket']); 
         if($ticket == ''){
             $res['status'] = 1;
@@ -33,6 +34,7 @@ class BookController extends Controller {
                 'travel_at' => $travel_at,
                 'name' => $name,
                 'telephone' => $telephone,
+                'id_card' => $id_card,
                 'ticket' => $ticket,
                 'info' => $info,
         ]; 
