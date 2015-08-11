@@ -74,7 +74,7 @@
     laydate({
         elem: '#travel_at',
             festival: true, //显示节日
-            min: laydate.now(-1), 
+            min: laydate.now(0), 
     });
 }();
 
